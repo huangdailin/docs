@@ -38,12 +38,12 @@ module.exports = {
     },
     sidebarDepth: 2,
 	// Git 仓库和编辑链接
-    repo: 'username/repo', // 你的仓库
+    repo: 'https://github.com/huangdailin/docs', // 你的仓库
     repoLabel: 'GitHub', // 导航栏上的文本
 
-    editLinks: true,
+    //editLinks: true,
     // 默认为 "Edit this page"
-    editLinkText: '编辑此页面'
+    //editLinkText: '编辑此页面'
     },
 	markdown: {
 		toc: { includeLevel: [2, 3] }
