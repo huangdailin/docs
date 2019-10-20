@@ -4,7 +4,7 @@
 
 ### 一、核心概念
 
-![](./image/kuangjia.PNG)
+![框架图](./image/kuangjiatu.png)
 
 1. producer（生产者）：
    - 消息生产者，负责产生消息，一般由业务系统产生消息；
