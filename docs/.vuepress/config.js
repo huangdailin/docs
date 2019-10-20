@@ -12,7 +12,8 @@ module.exports = {
 	  { text: '笔记',        // 这里是下拉列表展现形式。
         items: [
           { text: '设计模式', link: '/note/sjms/UML时序图' },
-		  { text: 'docker', link: '/note/docker/docker' }
+		  { text: 'docker', link: '/note/docker/docker' },
+		  { text: 'rocketMQ', link: '/note/rocketMQ/rocketMQ' }
         ]
       },
       { text: '链接',        // 这里是下拉列表展现形式。
@@ -23,17 +24,25 @@ module.exports = {
     ],
     // 为以下添加侧边栏
     sidebar: {
+		//Java
 		'/java/': [
 			['java','java']
 		],
 		
+		//设计模式
 		'/note/sjms/':[
 			'UML时序图',
 			'命令模式与策略模式'
 		],
         
+		//docker
 		'/note/docker/':[
 			['docker','docker']
+		],
+		
+		//rocketMQ
+		'/note/rocketMQ/':[
+			['rocketMQ','核心概念']
 		],
     },
     sidebarDepth: 2,
