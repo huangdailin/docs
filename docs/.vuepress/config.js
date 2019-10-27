@@ -47,7 +47,8 @@ module.exports = {
 		
 		//rocketMQ
 		'/note/rocketMQ/':[
-			['rocketMQ','核心概念']
+			['rocketMQ','核心概念'],
+			['rocketMQ安装','rocketMQ安装']
 		],
     },
     sidebarDepth: 2,
