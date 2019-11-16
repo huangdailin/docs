@@ -1,7 +1,3 @@
----
-
----
-
 # rocketMQ安装
 
 ### 一、win10安装
@@ -25,11 +21,11 @@ RocketMQ需要64位的JDK，请确保是64位系统并安装的是的64位JDK。
 
 进入rocketmq的bin文件夹，按着Shift键右击鼠标打开命令窗口，然后执行：**start mqnamesrv.cmd**
 
-![nameserver](./image/nameserver.PNG)
+![nameserver](./image/nameserver.png)
 
 出现下图代表启动完成：
 
-![nameserversuccess](./image/nameserversuccess.PNG)
+![nameserversuccess](./image/nameserversuccess.png)
 
 `注意：`此时窗口不可关闭
 

@@ -13,7 +13,7 @@ module.exports = {
     // 添加导航栏
     nav: [
       { text: '主页', link: '/' }, // 导航条
-      { text: 'java', link: '/java/java' },
+      { text: 'java', link: '/java/pom文件解析' },
 	  { text: '笔记',        // 这里是下拉列表展现形式。
         items: [
           { text: '设计模式', link: '/note/sjms/UML时序图' },
@@ -31,7 +31,7 @@ module.exports = {
     sidebar: {
 		//Java
 		'/java/': [
-			['java','java']
+			['pom文件解析','pom文件解析']
 		],
 		
 		//设计模式
@@ -48,7 +48,7 @@ module.exports = {
 		//rocketMQ
 		'/note/rocketMQ/':[
 			['rocketMQ','核心概念'],
-			['rocketMQ安装','rocketMQ安装']
+			'rocketMQ安装'
 		],
     },
     sidebarDepth: 2,
